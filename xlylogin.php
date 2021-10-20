@@ -1,7 +1,7 @@
 
 <?php
 	session_start();
-	$conn=mysqli_connect("localhost","root","","demo_db");
+	$conn=mysqli_connect("mysql5027.site4now.net","a7b583_dbweb","toan1532001","db_a7b583_dbweb");
 	mysqli_query($conn,'SET NAMES "utf8"'); // hiển thị tiếng việt
 	if (isset($_POST['submit'])) {
 	 	$username = $_POST["username"];
