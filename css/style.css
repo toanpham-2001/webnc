@@ -1,0 +1,488 @@
+
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 26, 2020, 9:05:12 AM
+    Author     : Thu
+*/
+#menu{
+  width: 1100px;
+    height: 40px;
+    background-color: #4CAF50;
+    margin: 5px auto;
+    margin-left: 90px;
+    background-image: url("images/menu_header.jpg");
+}
+
+#menu ul{
+  list-style-type: none;
+  background-color: #F3C110;
+  text-align: center;
+
+
+}
+
+#menu ul li{
+  color: #FFFF;
+  float: left;
+  display: inline-table;
+  width: 170px;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+  z-index: 1;
+
+}
+
+#menu ul li a{
+
+  color: #FFFF;
+  text-decoration: none;
+  display: block;
+
+font-family: 'Bitter', serif;
+font-family: 'Markazi Text', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+#menu ul li a:hover{
+  background-color: #2aedcf;
+  
+
+}
+
+#menu ul li > .sub-menu{
+  display: none;
+  position: absolute;
+  text-align: left;
+  width: 170px;
+  text-indent: 5px;
+
+
+}
+
+#menu ul li:hover .sub-menu{
+  display: block;
+}
+/*ket thuc menu da cap*/
+.bc1 img
+{
+    padding-top: 1px;
+    width: 20px;
+}
+.top
+{
+    margin: 0px auto;
+    width: 1100px;
+    height: 212px;
+
+  margin-left:90px;
+    margin-bottom:  60px;
+
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.footer
+{
+    margin-top:40px;
+  margin-left: 90px;
+  padding-left:   90px;
+  width: 1100px;
+  height: 250px;
+  border-radius: 5px;
+  display: flex;
+  background-color:#060606;
+}
+
+.f1
+{
+ width: 300px;
+ height: 300px;
+
+ margin-right: 25px;
+}
+
+.f1 >ul> li 
+
+{
+  margin-bottom:15px;
+  text-decoration: none;
+
+  line-height: 35px;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: Arial,sans-serif;
+  color: white;
+   list-style-type: none;
+}
+.f1 >ul> li>a
+{
+  color: white;
+ font-style: 14px;
+ font-family: 'Bitter', serif;
+font-family: 'Markazi Text', serif;
+font-size: 20px;
+}
+
+.f1 #a
+{
+  color: #56ae15;
+  font-size: 20px;
+  border-bottom: 2px solid #B0B035;
+  padding-bottom: 5px;
+}
+
+.f2
+{
+ width: 300px;
+ height: 300px;
+
+  margin-right: 25px;
+}
+.f3
+{
+ width: 300px;
+ height: 300px;
+
+}
+
+.coppy
+{
+  width: 1100px;
+  margin-left:  90px;
+  height: 50px;
+  background-color: #d36c05;
+
+}
+.coppy p
+{
+ text-align: center;
+ line-height: 50px;
+ font-family: Optima;
+
+}
+
+
+
+body{
+    font-family: arial;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 950px;
+    margin: 0 auto;
+   
+    padding: 15px;
+    font-family: 'Bitter', serif;
+font-family: 'Markazi Text', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+
+}
+ .container p
+ {
+    color: #008000;
+    font-size: 40px;
+   
+ }
+ 
+h1{
+    text-align: center;
+  
+}
+.product-items{
+    border: 1px solid #000;
+    padding: 30px;
+}
+.product-item{
+    float: left;
+    width: 23%;
+    margin: 1%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    line-height: 26px;
+}
+.product-item label{
+    font-weight: bold;
+}
+.product-item p{
+    margin: 0;
+    line-height: 26px;
+    max-height: 52px;
+    overflow: hidden;
+}
+.product-price{
+    color: red;
+    font-weight: bold;
+}
+.product-img{
+    padding: 5px;
+    
+    margin-bottom: 5px;
+
+}
+.product-item img{
+    max-width: 100%;
+
+}
+.product-item ul{
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid #000;
+}
+.product-item ul li{
+    float: left;
+    width: 33.3333%;
+    list-style: none;
+    text-align: center;
+    border: 1px solid #000;
+    border-right: 0;
+    box-sizing: border-box;
+}
+.clear-both{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+.buy-button{
+    text-align: right;
+    margin-top: 10px;
+}
+.buy-button a{
+    background: #444;
+    padding: 5px;
+    color: #fff;
+}
+#pagination{
+    text-align: right;
+    margin-top: 15px;
+}
+.page-item{
+    border: 1px solid #000;
+    padding: 5px 9px;
+    color: #000;
+}
+.current-page{
+    background: #000;
+    color: #FFF;
+}
+#product-detail{
+   /* border-top: 1px solid #000;*/
+    padding: 15px 0 0 0;
+}
+#product-img{
+    width: 30%;
+    float: left;
+
+}
+
+#product-info h1{
+   margin-bottom: 40px;
+
+}
+#product-info{
+    float: right;
+    width: 70%;
+    text-align: left;
+    padding-left: 30px;
+}
+
+
+.gia
+{
+    margin-top: 30px;
+}
+.mt
+{
+    width: 350px;
+    height: 150px;
+   
+}
+.mt p
+{
+  width: 350px;
+  word-wrap: break-word;
+   
+}
+
+#product-img img{
+    max-width: 100%;
+    padding: 5px;
+    border: 1px solid #000;
+    background: #eee;
+}
+h1{
+    text-align: left;
+    margin-top: 0;
+}
+label.add-to-cart{
+    background: #000;
+    border: 1px solid #000;
+    margin-top: 15px;
+    padding: 15px;
+    display: inline-block;
+    color: #fff;
+}
+label a{
+    color: #FFF;
+}
+#gallery{
+    margin-top: 10px;
+}
+#gallery ul{
+    margin: 0;
+    padding: 0;
+}
+#gallery ul li{
+    width: 150px;
+    float: left;
+    list-style: none;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    height: 130px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #000;
+    background: #eee;
+}
+#gallery ul li img{
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+table{
+    border-collapse: collapse;
+    width: 900px;
+}
+table, th, td {
+   /* border: 1px solid black;*/
+}
+table .product-img img{
+    max-width: 100px;
+}
+table .product-name{
+    width: 350px;
+    padding-left: 20px;
+}
+table .product-img{
+    width: 120px;
+    text-align: center;
+}
+table .product-number{
+    width: 50px;
+    text-align: center;
+}
+table .product-price{
+    width: 100px;
+    text-align: center;
+}
+table .product-quantity input{
+    width: 40px;
+    text-align: center;
+}
+table .product-quantity{
+    width: 60px;
+    text-align: center;
+}
+table .total-money{
+    width: 100px;
+    text-align: center;
+    color: red;
+}
+#form-button{
+    text-align: right;
+    margin-top: 15px;
+
+}
+
+
+#form-button input{
+    background-color: #82c341;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    width: 100px;
+      font-family: 'Bitter', serif;
+font-family: 'Markazi Text', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+border: 1px solid #ccc;
+
+
+}
+
+#order {
+    background-color: #82c341;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    width: 100px;
+      font-family: 'Bitter', serif;
+font-family: 'Markazi Text', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+border: 1px solid #ccc;
+}
+
+
+.product-delete{
+    width: 100px;
+    text-align: center;
+}
+#cart-form label{
+    width: 100px;
+    display: inline-block;
+    margin-top: 15px;
+}
+#cart-form textarea{
+    margin-top: 15px;
+}
+#cart-form input{
+    line-height: 30px;
+    height: 30px;
+}
+input[name="order_click"]{
+    margin-top: 15px;
+}
+#row-total{
+    background: #eee;
+    color: #000;
+}
+
+#add-to-cart-form input[type='text']{
+    margin-top: 10px;
+    height: 37px;
+
+    line-height: 30px;
+}
+#add-to-cart-form input[type='submit']{
+    background: green;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    padding: 10px;
+    display: inline-block;
+    color: #fff;
+    font-family: 'Markazi Text', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+}
